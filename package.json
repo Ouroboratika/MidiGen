@@ -1,0 +1,24 @@
+{
+  "name": "midigen",
+  "version": "1.0.0",
+  "description": "Using math and randomness to procedurally generate music",
+  "main": "MidiGen.js",
+  "dependencies": {
+    "scribbletune": "^0.11.2",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschey/MidiGen.git"
+  },
+  "author": "Austin Schey",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aschey/MidiGen/issues"
+  },
+  "homepage": "https://github.com/aschey/MidiGen#readme",
+  "scripts": {
+    "build": "mkdirp ./jsonBackups && mkdirp ./midi"
+  }
+}

@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# json files used by the application
+jsonBackups
+
+# midi files
+midi
